@@ -1,0 +1,55 @@
+# Arduino/ESP32 build files
+*.bin
+*.elf
+*.hex
+*.eep
+*.elf.*
+*.bin.*
+*.map
+*.d
+*.lst
+
+# Arduino IDE and PlatformIO files
+/.pio
+/.pioenvs
+/.piolibdeps
+/.vscode
+/.arduino
+/.build
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*~
+*.bak
+*.orig
+*.old
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Node / web dashboard (if using npm or node_modules)
+node_modules/
+dist/
+build/
